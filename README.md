@@ -29,7 +29,7 @@ extractor:取值为"cnn"或"mlp"。注意，当取值为"mlp"是，binary只能�
 ![alt 环境渲染截图](images/run_cut.PNG)
 
 ## 运行视频
-![alt 运行](images\2048.gif)
+![alt 运行](images/2048.gif)
 
 
 ## 参考资料见reference目录
