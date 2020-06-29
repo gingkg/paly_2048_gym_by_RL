@@ -18,7 +18,8 @@ gym_game2048兼容gym接口。使用下面的代码创建环境：
 board_size:2048的方格数。  
 seed:随机种子。  
 binary:采用二进制输出还是十进制输出，True代表二进制，False代表十进制。二进制输出为4*4*16的numpy数组，取值只有0和1，十进制输出为16*1的一维向量，取值即为正常2048看到的数字。  
-extractor:取值为"cnn"或"mlp"。注意，当取值为"mlp"是，binary只能为False。
+extractor:取值为"cnn"或"mlp"。注意，当取值为"mlp"是，binary只能为False。  
+penalty:代表无效动作的惩罚。取值范围为[-512,0]
 
 ## 相关说明
 该2048游戏基于gym环境，2048源代码来源于https://github.com/FelipeMarcelino/2048-Gym  
